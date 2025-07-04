@@ -10,9 +10,9 @@ namespace Hardipzapadiya_23SOECE11020
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!"); 
-            Console.WriteLine("This is Hardip Zapadiya, 23SOECE11020");
-            Console.WriteLine("This is Hardip Zapadiya, 23SOECE11020");
+            Console.WriteLine("Hello, World!");
+            // Example of using the AdditionExample class
+            AdditionExample.add(5.0, 10.0);
         }
     }
 }
