@@ -8,11 +8,9 @@ namespace Hardipzapadiya_23SOECE11020
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string []arg)
         {
-            Console.WriteLine("Hello, World!");
-            // Example of using the AdditionExample class
-            AdditionExample.add(5.0, 10.0);
+            Questions.printtable(10);
         }
     }
 }

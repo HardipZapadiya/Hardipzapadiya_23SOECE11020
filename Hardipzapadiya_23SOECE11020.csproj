@@ -44,8 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdditionExample.cs" />
+    <Compile Include="Arraypractice1.cs" />
+    <Compile Include="PatternQuestion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
