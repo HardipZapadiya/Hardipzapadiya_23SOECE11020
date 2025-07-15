@@ -21,4 +21,11 @@ namespace Hardipzapadiya_23SOECE11020
 
         }
     }
+
+    /*
+     *
+     *a++   return a then increment.
+     *++a  increment a then return 
+     *a++ + b++    return a  (increment a) + return b (increment b) ,
+     */
 }
