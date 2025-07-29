@@ -10,6 +10,7 @@ namespace Hardipzapadiya_23SOECE11020
     {
         public static void Main(string []arg)
         {
+            Console.WriteLine(arg[0]);
             // Questions.printtable(10);
             //int a = 5;
             //Console.WriteLine(a++);

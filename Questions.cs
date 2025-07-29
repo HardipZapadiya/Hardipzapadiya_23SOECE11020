@@ -8,6 +8,10 @@ namespace Hardipzapadiya_23SOECE11020
 {
     internal class Questions
     {
+        public static int add(int x,int y)
+        {
+            return x+ y;    
+        }
         public static void printtable(int num)
         {
             for (int i = 1; i <= num; i++)
