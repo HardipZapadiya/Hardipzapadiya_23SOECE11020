@@ -8,9 +8,15 @@ namespace Hardipzapadiya_23SOECE11020
 {
     internal class Program
     {
+
+        
         public static void Main(string []arg)
         {
-            Console.WriteLine(arg[0]);
+            TimeDIsplayer t1 = new TimeDIsplayer(10, 1, 59);
+            t1.display();
+
+
+           // Console.WriteLine(arg[0]);
             // Questions.printtable(10);
             //int a = 5;
             //Console.WriteLine(a++);
@@ -21,14 +27,14 @@ namespace Hardipzapadiya_23SOECE11020
           //  ary.add(1, 2, 200);
           //  ary.print_Array();
 
-            int[,] arr1= new int[2, 2] { { 1, 1 }, { 1, 1 } };
-            int[,] arr2 = new int[2, 2] { { 2,2 }, { 2,2} };
+            //int[,] arr1= new int[2, 2] { { 1, 1 }, { 1, 1 } };
+            //int[,] arr2 = new int[2, 2] { { 2,2 }, { 2,2} };
 
 
-            int[,] sumarray = TwoD_Array.add_array(arr1,arr2, 2, 2);
-            TwoD_Array.printArray(arr1);
-            TwoD_Array.printArray(arr2);
-            TwoD_Array.printArray(sumarray);
+            //int[,] sumarray = TwoD_Array.add_array(arr1,arr2, 2, 2);
+            //TwoD_Array.printArray(arr1);
+            //TwoD_Array.printArray(arr2);
+            //TwoD_Array.printArray(sumarray);
 
         }
     }
